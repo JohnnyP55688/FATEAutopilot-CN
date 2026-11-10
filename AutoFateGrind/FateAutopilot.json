@@ -3,7 +3,7 @@
   "Name": "FATE Autopilot",
   "InternalName": "FateAutopilot",
   "Punchline": "FATEs, farmed for you.",
-  "Description": "Farms FATEs for you: tick the zones, and the plugin teleports in, finds active FATEs, and runs them in a loop until your target is met. Based on Auto FATE Grind by XeldarAlz.",
+  "Description": "国服兼容修改版，基于 Sojiroh/FFXIV-FATEAutopilot；原项目源自 XeldarAlz/FFXIV-AutoFATEGrind。自动选择、传送并完成 FATE。",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/JohnnyP55688/FATEAutopilot-CN",
   "IconUrl": "https://raw.githubusercontent.com/JohnnyP55688/FATEAutopilot-CN/main/AutoFateGrind/Images/Icon.png",

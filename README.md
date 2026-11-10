@@ -8,6 +8,16 @@
 
 > 本项目是社区维护的非官方兼容版本，与盛趣游戏、Square Enix、Dalamud、原作者均无隶属或背书关系。使用自动化插件可能违反游戏规则，请自行判断风险并承担后果。
 
+## 卫月在线安装
+
+在卫月设置的“实验性功能 / 自定义插件仓库”中添加下面的仓库地址，保存后即可在插件安装器中搜索 **FATE Autopilot**：
+
+```text
+https://raw.githubusercontent.com/JohnnyP55688/FATEAutopilot-CN/main/repo.json
+```
+
+如果插件安装器已经打开，请关闭后重新打开或刷新插件列表。请勿同时启用其他同名版本。
+
 ## 国服兼容修复
 
 - 修复 `Lumina.Excel.Exceptions.UnsupportedLanguageException`：FATE 名称读取失败时回退为 `FATE #编号`，不会中断自动流程。
@@ -81,6 +91,15 @@ dotnet build AutoFateGrind/AutoFateGrind.csproj -c Release
 
 ## 来源与许可证
 
-本项目基于 Sojiroh 的 FATE Autopilot，以及更早的 XeldarAlz / Auto FATE Grind。保留原项目版权、NOTICE 和商标说明。
+这是一个衍生修改版，并非从零原创。代码来源和维护关系如下：
+
+- 国服特供版维护仓库：[JohnnyP55688/FATEAutopilot-CN](https://github.com/JohnnyP55688/FATEAutopilot-CN)
+- 直接上游项目：[Sojiroh/FFXIV-FATEAutopilot](https://github.com/Sojiroh/FFXIV-FATEAutopilot)
+- 更早的基础项目：[XeldarAlz/FFXIV-AutoFATEGrind](https://github.com/XeldarAlz/FFXIV-AutoFATEGrind)
+
+本版在上游 2.22.0.0 基础上增加国服 `Language.None` 异常兼容、名称回退和传送流程兼容处理。除这些修改外，其余主体代码与设计归功于上游贡献者。保留原项目版权、NOTICE 和商标说明。
+
+Based on Auto FATE Grind by XeldarAlz<br>
+https://github.com/XeldarAlz/FFXIV-AutoFATEGrind
 
 代码采用 **AGPL-3.0-or-later**，详情见 [LICENSE.md](LICENSE.md)、[NOTICE](NOTICE) 和 [TRADEMARK.md](TRADEMARK.md)。

@@ -33,23 +33,26 @@ internal sealed class AboutPage
 
     private const float ArrowSlide = 5f;
 
-    private static readonly CommunityLink[] communityLinks = new CommunityLink[1]
+    private static readonly CommunityLink[] communityLinks = new CommunityLink[2]
     {
-        new CommunityLink("##fta_about_github", FontAwesomeIcon.CodeBranch, L.About.GitHubTitle, L.About.GitHubBody, RepoUrl, Styling.AccentViolet)
+        new CommunityLink("##fta_about_github_cn", FontAwesomeIcon.CodeBranch, L.About.GitHubTitle, L.About.GitHubBody, RepoUrl, Styling.AccentViolet),
+        new CommunityLink("##fta_about_github_upstream", FontAwesomeIcon.Code, L.About.GitHubTitle, L.About.GitHubBody, UpstreamRepoUrl, Styling.AccentBlue)
     };
 
     private const string Name = "FATE Autopilot";
 
-    private const string Author = "Sojiroh";
+    private const string Author = "JohnnyP55688 / Sojiroh";
 
-    private const string RepoUrl = "https://github.com/Sojiroh/FFXIV-FATEAutopilot";
+    private const string RepoUrl = "https://github.com/JohnnyP55688/FATEAutopilot-CN";
+
+    private const string UpstreamRepoUrl = "https://github.com/Sojiroh/FFXIV-FATEAutopilot";
 
     // Attribution required by the NOTICE of the original project; never translated or altered.
     private const string CreditText = "Based on Auto FATE Grind by XeldarAlz";
 
     private const string CreditUrl = "https://github.com/XeldarAlz/FFXIV-AutoFATEGrind";
 
-    private static readonly string[] CreditLines = [CreditText, CreditUrl];
+    private static readonly string[] CreditLines = ["Upstream: " + UpstreamRepoUrl, CreditText, CreditUrl];
 
     private const float MaxColumnWidth = 860f;
 
