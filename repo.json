@@ -1,0 +1,32 @@
+[
+  {
+    "Author": "JohnnyP55688 / Sojiroh",
+    "Name": "FATE Autopilot",
+    "InternalName": "FateAutopilot",
+    "AssemblyVersion": "2.22.0.0",
+    "TestingAssemblyVersion": "2.22.0.0",
+    "Description": "Farms FATEs for you: tick the zones, and the plugin teleports in, finds active FATEs, and runs them in a loop until your target is met. Based on Auto FATE Grind by XeldarAlz.",
+    "Punchline": "FATEs, farmed for you.",
+    "RepoUrl": "https://github.com/JohnnyP55688/FATEAutopilot-CN",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "FATE",
+      "Shared FATE",
+      "Bicolor Gemstones",
+      "Date with Destiny",
+      "Automation"
+    ],
+    "CategoryTags": [
+      "utility"
+    ],
+    "DalamudApiLevel": 15,
+    "IconUrl": "https://raw.githubusercontent.com/JohnnyP55688/FATEAutopilot-CN/main/AutoFateGrind/Images/Icon.png",
+    "DownloadLinkInstall": "https://github.com/JohnnyP55688/FATEAutopilot-CN/releases/latest/download/FATEAutopilot-2.22.0-CN-LanguageNone-fix.zip",
+    "DownloadLinkUpdate": "https://github.com/JohnnyP55688/FATEAutopilot-CN/releases/latest/download/FATEAutopilot-2.22.0-CN-LanguageNone-fix.zip",
+    "DownloadLinkTesting": "https://github.com/JohnnyP55688/FATEAutopilot-CN/releases/latest/download/FATEAutopilot-2.22.0-CN-LanguageNone-fix.zip",
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "DownloadCount": 0,
+    "LastUpdate": "1793573067"
+  }
+]
