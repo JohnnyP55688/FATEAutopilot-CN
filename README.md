@@ -26,6 +26,14 @@ https://raw.githubusercontent.com/JohnnyP55688/FATEAutopilot-CN/main/repo.json
 - 绕开 `clib.Coords` 内部对本地化表的读取，使用稳定的传送点 ID 和坐标完成传送。
 - 区域名、传送点名和调试信息均提供数字 ID 回退。
 
+## 国服版更新日志
+
+### 2.22.0.2（2026-11-16）
+
+- 修复双色宝石自动兑换在商人附近看似卡住：进入 NPC 可交互距离后直接对话，不再重复三次空闲导航。
+- 插件内更新日志仅显示国服版实际修改；原作者与代码来源仍在“来源与许可证”中完整注明。
+- 继续保留国服 `Language.None` 名称读取保护。
+
 ## 主要功能
 
 - 自动选择、传送、飞行前往并完成 FATE。
@@ -36,7 +44,7 @@ https://raw.githubusercontent.com/JohnnyP55688/FATEAutopilot-CN/main/repo.json
 
 ## 安装方法
 
-1. 从仓库的 **Releases** 页面下载 `FATEAutopilot-2.22.0-CN-LanguageNone-fix.zip`。
+1. 从仓库的 **Releases** 页面下载 `FATEAutopilot-CN-2.22.0.2.zip`。
 2. 完整解压到固定目录，例如 `C:\DalamudPlugins\FATEAutopilot-CN\`。不要只取 DLL，依赖文件必须保留。
 3. 游戏内输入 `/xlsettings`，打开“实验性功能”。
 4. 在“开发插件位置”中添加解压目录里的 `FateAutopilot.dll`。

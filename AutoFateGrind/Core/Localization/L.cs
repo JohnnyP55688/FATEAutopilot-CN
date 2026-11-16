@@ -790,6 +790,12 @@ internal static class L
 
         public static readonly LocPlural Changes = new LocPlural("changelog.changes", "{0} change", "{0} changes");
 
+        public static readonly LocString[] ReleaseCN22202 = new LocString[2]
+        {
+            new LocString("changelog.cn22202.1", "CN compatibility build: kept the Language.None-safe FATE name handling for the CN client"),
+            new LocString("changelog.cn22202.2", "Fixed Bicolor Gemstone auto-trade appearing stuck near the trader: the plugin now recognises the NPC interaction range and talks immediately instead of repeating an idle navigation route")
+        };
+
         public static readonly LocString[] Release22200 = new LocString[3]
         {
             new LocString("changelog.r22200.1", "Added Chat commands to the settings: list your own commands, one per line (such as /li home or /ays m), and they run when a run finishes on its own, before the after-run action, never after Stop or a failure"),

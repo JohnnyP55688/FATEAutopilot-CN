@@ -28,7 +28,10 @@ public sealed class AutoTrade(TradePlan plan, IReadOnlySet<uint> skippedItemIds)
 
     private const int MoveWatchdogMs = 120000;
 
-    private const float WalkToleranceMeters = 4f;
+    // Currency traders can be interacted with slightly outside the old four-metre
+    // navigation tolerance.  The old value left vnavmesh idle a few metres from
+    // Siulmet and retried the same route three times before talking to the NPC.
+    private const float WalkToleranceMeters = 6.5f;
 
     private const int InteractWaitMs = 15000;
 
@@ -116,7 +119,10 @@ public sealed class AutoTrade(TradePlan plan, IReadOnlySet<uint> skippedItemIds)
         await RunWithStatusPinned("Walking to " + trader.Name, async () =>
         {
             await RideAethernetShortcut(traderPos, "trade-aethernet");
-            await WalkWithRetries(() => new MoveOp((MoveOp o) => o.Move(traderTerr, traderPos, MovementConfig.Everything.WithTolerance(WalkToleranceMeters), null)), MoveWatchdogMs, "trade-walk", () => AutoCommon.WithinReach(traderPos, WalkToleranceMeters));
+            if (!AutoCommon.WithinReach(traderPos, WalkToleranceMeters))
+            {
+                await WalkWithRetries(() => new MoveOp((MoveOp o) => o.Move(traderTerr, traderPos, MovementConfig.Everything.WithTolerance(WalkToleranceMeters), null)), MoveWatchdogMs, "trade-walk", () => AutoCommon.WithinReach(traderPos, WalkToleranceMeters));
+            }
         });
     }
 
