@@ -28,6 +28,10 @@ https://raw.githubusercontent.com/JohnnyP55688/FATEAutopilot-CN/main/repo.json
 
 ## 国服版更新日志
 
+### 2.22.0.3（2026-11-17）
+
+- 卫月插件作者显示更新为 `JohnnyP55688`；原作者、上游源码及许可证归属继续在“来源与许可证”中完整保留。
+
 ### 2.22.0.2（2026-11-16）
 
 - 修复双色宝石自动兑换在商人附近看似卡住：进入 NPC 可交互距离后直接对话，不再重复三次空闲导航。
@@ -44,7 +48,7 @@ https://raw.githubusercontent.com/JohnnyP55688/FATEAutopilot-CN/main/repo.json
 
 ## 安装方法
 
-1. 从仓库的 **Releases** 页面下载 `FATEAutopilot-CN-2.22.0.2.zip`。
+1. 从仓库下载 `FATEAutopilot-CN-2.22.0.3.zip`。
 2. 完整解压到固定目录，例如 `C:\DalamudPlugins\FATEAutopilot-CN\`。不要只取 DLL，依赖文件必须保留。
 3. 游戏内输入 `/xlsettings`，打开“实验性功能”。
 4. 在“开发插件位置”中添加解压目录里的 `FateAutopilot.dll`。

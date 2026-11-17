@@ -396,6 +396,7 @@
   "changelog.new": "新",
   "changelog.changes.one": "{0} 项更改",
   "changelog.changes.other": "{0} 项更改",
+  "changelog.cn22203.1": "卫月插件作者显示已更新为 JohnnyP55688；原项目作者与代码来源继续保留在 README 和许可证声明中",
   "changelog.cn22202.1": "国服兼容：继续保留针对国服 Language.None 的 FATE 名称安全读取修复",
   "changelog.cn22202.2": "修复双色宝石自动兑换在商人附近看似卡住：进入 NPC 可交互距离后会直接对话，不再重复三次空闲导航",
   "changelog.r22200.1": "设置中新增“聊天命令”：每行填写一条自己的命令（例如 /li home 或 /ays m），运行自行结束时会在结束后操作之前执行，停止后或失败时不会执行",

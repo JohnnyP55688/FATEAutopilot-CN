@@ -790,6 +790,11 @@ internal static class L
 
         public static readonly LocPlural Changes = new LocPlural("changelog.changes", "{0} change", "{0} changes");
 
+        public static readonly LocString[] ReleaseCN22203 = new LocString[1]
+        {
+            new LocString("changelog.cn22203.1", "Updated the CN release author display to JohnnyP55688; original project credits remain in the README and license notices")
+        };
+
         public static readonly LocString[] ReleaseCN22202 = new LocString[2]
         {
             new LocString("changelog.cn22202.1", "CN compatibility build: kept the Language.None-safe FATE name handling for the CN client"),

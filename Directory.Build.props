@@ -10,8 +10,8 @@
   -->
 
   <PropertyGroup Label="Identity">
-    <Version>2.22.0.2</Version>
-    <Authors>JohnnyP55688; Sojiroh</Authors>
+    <Version>2.22.0.3</Version>
+    <Authors>JohnnyP55688</Authors>
     <Copyright>Copyright (c) XeldarAlz, Sojiroh, JohnnyP55688</Copyright>
     <PackageProjectUrl>https://github.com/JohnnyP55688/FATEAutopilot-CN</PackageProjectUrl>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>

@@ -1,10 +1,10 @@
 [
   {
-    "Author": "JohnnyP55688 / Sojiroh",
+    "Author": "JohnnyP55688",
     "Name": "FATE Autopilot",
     "InternalName": "FateAutopilot",
-    "AssemblyVersion": "2.22.0.2",
-    "TestingAssemblyVersion": "2.22.0.2",
+    "AssemblyVersion": "2.22.0.3",
+    "TestingAssemblyVersion": "2.22.0.3",
     "Description": "国服兼容修改版，基于 Sojiroh/FFXIV-FATEAutopilot；原项目源自 XeldarAlz/FFXIV-AutoFATEGrind。自动选择、传送并完成 FATE。",
     "Punchline": "FATE Autopilot 国服兼容修改版。",
     "RepoUrl": "https://github.com/JohnnyP55688/FATEAutopilot-CN",
@@ -21,12 +21,12 @@
     ],
     "DalamudApiLevel": 15,
     "IconUrl": "https://raw.githubusercontent.com/JohnnyP55688/FATEAutopilot-CN/main/AutoFateGrind/Images/Icon.png",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/JohnnyP55688/FATEAutopilot-CN/main/FATEAutopilot-CN-2.22.0.2.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/JohnnyP55688/FATEAutopilot-CN/main/FATEAutopilot-CN-2.22.0.2.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/JohnnyP55688/FATEAutopilot-CN/main/FATEAutopilot-CN-2.22.0.2.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/JohnnyP55688/FATEAutopilot-CN/main/FATEAutopilot-CN-2.22.0.3.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/JohnnyP55688/FATEAutopilot-CN/main/FATEAutopilot-CN-2.22.0.3.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/JohnnyP55688/FATEAutopilot-CN/main/FATEAutopilot-CN-2.22.0.3.zip",
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "DownloadCount": 0,
-    "LastUpdate": "1794787200"
+    "LastUpdate": "1794873600"
   }
 ]
