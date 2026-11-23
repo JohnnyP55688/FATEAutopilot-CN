@@ -40,6 +40,7 @@ public sealed class Plugin : IDalamudPlugin, IDisposable
     private readonly CommandInfo aliasCommand;
 
     private readonly EventHandler<UnobservedTaskExceptionEventArgs> unobservedTaskHandler;
+    private readonly RelicFlowStatusIpc relicFlowStatusIpc;
 
     [PluginService]
     internal static IDalamudPluginInterface PluginInterface { get; private set; } = null!;
@@ -89,6 +90,7 @@ public sealed class Plugin : IDalamudPlugin, IDisposable
         }
         History = new RunHistory();
         Controller = new AutoFateController();
+        relicFlowStatusIpc = new RelicFlowStatusIpc(PluginInterface, Controller);
         gmAlertWatcher = new GmAlertWatcher();
         partyInviteWatcher = new PartyInviteWatcher();
         dutyWatcher = new DutyWatcher();
@@ -137,6 +139,7 @@ public sealed class Plugin : IDalamudPlugin, IDisposable
 
     public void Dispose()
     {
+        relicFlowStatusIpc.Dispose();
         TaskScheduler.UnobservedTaskException -= unobservedTaskHandler;
         PluginInterface.UiBuilder.Draw -= WindowSystem.Draw;
         PluginInterface.UiBuilder.OpenConfigUi -= ToggleConfigUi;

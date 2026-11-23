@@ -28,6 +28,11 @@ https://raw.githubusercontent.com/JohnnyP55688/FATEAutopilot-CN/main/repo.json
 
 ## 国服版更新日志
 
+### 2.22.0.4（2026-11-23）
+
+- 新增供 RelicFlow 使用的只读状态接口：运行状态、当前阶段和状态说明。
+- 接口不允许外部插件启动或停止自动 FATE。
+
 ### 2.22.0.3（2026-11-17）
 
 - 卫月插件作者显示更新为 `JohnnyP55688`；原作者、上游源码及许可证归属继续在“来源与许可证”中完整保留。
@@ -48,7 +53,7 @@ https://raw.githubusercontent.com/JohnnyP55688/FATEAutopilot-CN/main/repo.json
 
 ## 安装方法
 
-1. 从仓库下载 `FATEAutopilot-CN-2.22.0.3.zip`。
+1. 从仓库下载最新的 `FATEAutopilot-CN-*.zip`。
 2. 完整解压到固定目录，例如 `C:\DalamudPlugins\FATEAutopilot-CN\`。不要只取 DLL，依赖文件必须保留。
 3. 游戏内输入 `/xlsettings`，打开“实验性功能”。
 4. 在“开发插件位置”中添加解压目录里的 `FateAutopilot.dll`。

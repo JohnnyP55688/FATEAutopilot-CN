@@ -10,7 +10,7 @@
   -->
 
   <PropertyGroup Label="Identity">
-    <Version>2.22.0.3</Version>
+    <Version>2.22.0.4</Version>
     <Authors>JohnnyP55688</Authors>
     <Copyright>Copyright (c) XeldarAlz, Sojiroh, JohnnyP55688</Copyright>
     <PackageProjectUrl>https://github.com/JohnnyP55688/FATEAutopilot-CN</PackageProjectUrl>
